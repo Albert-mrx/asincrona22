@@ -1,0 +1,23 @@
+
+
+<article class="bg-light form-container">
+  <section class="col-3">
+    <h2>login</h2>
+    <section class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" class="form-control i" id="username" [(ngModel)]="user">
+      </section>
+      <section class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" class="form-control i" id="password" [(ngModel)]="password">
+      </section>
+      <input class="btn btn-primary i" (click)="login()" value="Iniciar sesion">
+    </section>
+</article>
+<article class="data-container ">
+  <p class="title">use datos de prueba</p>
+  <section>
+    <p><span>UserName</span>:test</p>
+    <p><span>Password</span>:test</p>
+  </section>
+</article>
